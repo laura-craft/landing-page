@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+body {
+    background-color: rgb(240, 240, 231);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.6;
+}
+
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+}
+#header-img {
+    margin-left: 1rem;
+    width: 10rem;
+}
+
+
+/*Navigation Bar*/
+nav#nav-bar ul {
+    display: flex;
+
+}
+nav#nav-bar ul li {
+    margin-left: 2rem;
+    
+}
+nav#nav-bar ul li a {
+    color: #111;
+    font-size: 1.25rem;
+}
+
+
+.subscribe {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+/*Email button*/
+#email {
+    align-items: center;
+    border: 2px solid rgb(48, 34, 2);
+    border-radius: 9px;
+    display: flex;
+    font-size: 19px;
+    height: 27px;
+    margin: 2rem auto;
+    text-align: center;
+    width: 323px;
+}
+
+  #submit {
+    background-color: rgb(225, 208, 27);
+    border: 2px solid rgb(51,51,51);
+    border-radius: 9px;
+    display: block;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0.9rem auto;
+    padding: 5px;
+    text-transform: uppercase;
+}
+  
+/*Features*/
+    .featured-wrapper {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .featured-icon i {
+        color: rgb(238, 184, 22);
+        font-size: 4rem;
+        width: 45px;
+    }
+    
+    .featured-text {
+        font-size: 1.5rem;
+        margin-left: 0;
+        text-align: center;
+    }
+    .featured-text h3 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .featured-text p {
+        opacity: 0.8;    
+    }
+
+    section#video {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 5rem;
+    }
+
+/*Pricing boxes*/
+.pricing-box {
+    background-color: white;
+    text-align: center;
+    line-height: 2.5;
+    border: 1px solid #111
+    
+}
+.pricing-box h4 {
+    background-color: rgb(202, 211, 220);
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+.pricing-box .price {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.pricing-box .btn {
+    background-color: orange;
+    display: block;
+    width: 150px;
+    margin: 1rem auto;
+    text-transform: uppercase;
+    color: #111;
+    font-weight: bold;
+}
+
+.footer-nav {
+    background: rgb(202, 211, 220);
+    text-align: end;
+    padding: 1rem .5rem;
+    margin-top: 1rem;
+}
+
+.footer-nav ul {
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+
+.footer-nav ul li {
+    margin-left: 1.5rem;
+}
+
+.footer-copyright {
+    opacity: 0.6;
+    color: #333;
+}
+
+
+@media screen and (max-width:650px) {
+    header{
+        flex-direction: column;
+    }
+ 
+    body,
+    html {
+      margin: 0px;
+      padding: 0px;
+      height: 100vh;
+      width: 100vw;
+      position: fixed;
+    }
+    
+    
